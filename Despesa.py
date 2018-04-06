@@ -4,10 +4,11 @@
 
 class Despesa():
 
-    #variaveis privadas da classe
+    #variaveis privadas da classe Despesa
     __valor;
     __categoria;
     __data;
+    __Conexao;
 
     #metodos para tratar a variavel valor
     def validarValor(valor):
